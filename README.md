@@ -13,8 +13,7 @@ LeetSync is a sleek and responsive web application designed to instantly check a
 - Clean design with dark mode aesthetics using CSS gradients and shadows.
 
 ## User Interface (UI)
-
-(.assets/screenshot1.png)
+<img width="1920" height="1080" alt="screenshot1" src="https://github.com/user-attachments/assets/df584364-e535-475c-b041-b0aef32b5b19" />
 
 ## Installation and Usage
 
