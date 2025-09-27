@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeetSync</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="card-container">
+        
+        <!-- Header -->
+        <header>
+          <h1 class="title"><img src="./assets/favicon.png"/> LeetSync</h1>
+          <p class="tagline">check your LeetCode progress instantly</p>
+        </header>
+
+        <!-- User Search -->
+        <section class="search-box">
+          <input type="text" placeholder="Enter username..." id="user-input" />
+          <button id="search-btn">Search</button>
+        </section>
+
+        <!-- Profile Card -->
+        <section class="profile-card">
+          <div class="profile-pic">
+            <img src="./assets/image.jpg" alt="Profile" />
+          </div>
+          <div class="profile-details">
+            <div class="profile-username">Username</div>
+            <div class="profile-handle">UserHandle</div>
+            <div class="profile-country">Country</div>
+          </div>
+        </section>
+
+        <!-- Overview Stats -->
+        <section class="overview">
+          <div class="stat-card easy">
+            <h2 id="easy-label">0</h2>
+            <p>Easy Problems</p>
+          </div>
+          <div class="stat-card medium">
+            <h2 id="medium-label">0</h2>
+            <p>Medium Problems</p>
+          </div>
+          <div class="stat-card hard">
+            <h2 id="hard-label">0</h2>
+            <p>Hard Problems</p>
+          </div>
+        </section>
+
+        <!-- Extra Detail Cards -->
+        <section class="details">
+          <div class="card">
+            <h3>Total Solved</h3>
+            <p id="total-solved">0</p>
+            <span id="total-questions-label" class="card-extra"></span>
+          </div>
+          <div class="card">
+            <h3>Acceptance Rate</h3>
+            <p id="acceptance">0</p>
+          </div>
+          <div class="card">
+            <h3>Ranking</h3>
+            <p id="ranking">0</p>
+          </div>
+          <div class="card">
+            <h3>Contribution Points</h3>
+            <p id="contribution">0</p>
+          </div>
+          <div class="card">
+            <h3>Reputation</h3>
+            <p id="reputation">0</p>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">made with ♥️ by @rishabh_6116</footer>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
