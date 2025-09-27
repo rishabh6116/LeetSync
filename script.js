@@ -79,10 +79,10 @@ function resetStats() {
   // Extra Cards
   totalSolvedEl.textContent = 0;
   totalQuestionsLabel.textContent = "";
-  acceptanceEl.textContent = "-";
-  rankingEl.textContent = "-";
-  contributionLabel.textContent = "-";
-  reputationLabel.textContent = "-";
+  acceptanceEl.textContent = "0";
+  rankingEl.textContent = "0";
+  contributionLabel.textContent = "0";
+  reputationLabel.textContent = "0";
 
   // Profile Card
   profileUsername.textContent = "Username";
