@@ -90,3 +90,10 @@ function resetStats() {
   profileCountry.textContent = "Country";
   profilePic.src = "./assets/image.jpg";
 }
+
+// Enter Button Search Feature
+userInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    searchBtn.click(); 
+  }
+});
